@@ -1,0 +1,11 @@
+gamedata:{
+    "[window_mode] [shake?]"
+}
+window_mode:{
+    character:'n' : sf::Style::None,no Titlebar
+    character:/'n'(others): sf::Style::Close | sf::Style::Titlebar
+}
+shake?:{
+    character:'n': no shake
+    character:/'n'(others): shake
+}
